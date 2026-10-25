@@ -13,7 +13,7 @@ Günlük görevleri planlamak, takvim üzerinden takip etmek  için yapılan bir
 ## Şu anki durum
 
 Proje şu an taslak aşamasında. Sadece HTML ve CSS ile yapılmış 3 sayfa var:
-
+- drive linki https://drive.google.com/drive/folders/1G1dnMlc2YIsUrm8JwPbU3kNlDWhh1euO?usp=sharing
 - Ana Sayfa (`index.html`)
 - Görevlerim (`gorevler.html`)
 - Görev Ekle (`gorev-ekle.html`)
