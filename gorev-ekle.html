@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Görev Ekle  Planlayıcım</title>
+    <link rel="stylesheet" href="css/stil.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" alt="logo" width="60">
+        <h1>Planlayıcım</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="gorevler.html">Görevlerim</a></li>
+                <li><a href="gorev-ekle.html" class="aktif">Görev Ekle</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Görev Ekle</h2>
+        <form id="gorevFormu">
+            <p>
+                <label for="baslik">Görev adı</label><br>
+                <input type="text" id="baslik" name="baslik" placeholder="Örn. Ödevi bitir" required>
+            </p>
+            <p>
+                <label for="tarih">Tarih</label><br>
+                <input type="date" id="tarih" name="tarih" required>
+            </p>
+            <p>
+                Öncelik:
+                <input type="radio" id="dusuk" name="oncelik" value="dusuk">
+                <label for="dusuk">Düşük</label>
+                <input type="radio" id="orta" name="oncelik" value="orta" checked>
+                <label for="orta">Orta</label>
+                <input type="radio" id="yuksek" name="oncelik" value="yuksek">
+                <label for="yuksek">Yüksek</label>
+            </p>
+            <p>
+                <label for="aciklama">Açıklama</label><br>
+                <textarea id="aciklama" name="aciklama" rows="3" cols="40"></textarea>
+            </p>
+            <button type="submit">Kaydet</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Planlayıcım</p>
+    </footer>
+</body>
+</html>
